@@ -1,0 +1,6 @@
+.env
+yarn.lock
+switcher_backup.env
+.idea
+node_modules
+yarn-error.log
