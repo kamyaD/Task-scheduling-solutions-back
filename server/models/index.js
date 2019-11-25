@@ -10,4 +10,13 @@ const sequelize = new Sequelize(config.database, config.username, config.passwor
 db.sequelizeInstance = sequelize;
 db.Sequelize = Sequelize;
 
+
+
+
+
+
+
+
+
+
 export default db;

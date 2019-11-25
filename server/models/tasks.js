@@ -81,31 +81,7 @@ module.exports = (sequelize, DataTypes) => {
     },
   });
 
-  // Task.create(
-  //     {
-  //       "task_id": 23115,
-  //       "customer_first_name": "Mary",
-  //       "personnel_first_name": "John",
-  //       "personnel_other_name": "Otieno",
-  //       "customer_last_name": "akinyi",
-  //       "customer_phone": "+254725007691",
-  //       "agentId": "5964u9469",
-  //       "assigned": "2019-06-27T07:42:02.000Z",
-  //       "in_progress": "2019-06-27T08:03:17.000Z",
-  //       "completed": true,
-  //       "deferred": "2019-06-27T08:03:43.000Z",
-  //       "status": "Deferred",
-  //       "location": "kenya",
-  //       "gender": "female",
-  //       "age": 21,
-  //       "access_code": null,
-  //       "splash_page": null,
-  //       "mpesa": null,
-  //       "autoplay": null,
-  //       "comments": "no answer",
-  //       "registration": "Self"
-  //     }
-  // );
+
 
   Task.tasks = async () => {
     return await Task.findAll();
